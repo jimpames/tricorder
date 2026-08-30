@@ -5,3 +5,18 @@ rent-a-hal tricorder:  chat, vision, imagine and speech for android 100 % on dev
 overview:
 
 https://youtu.be/SjvG9m4q6wI?si=_dH8VCtRIlI9Ycd8
+
+
+<img width="1512" height="2016" alt="IMG_5297" src="https://github.com/user-attachments/assets/ac3d6c19-08e6-46ca-b958-0a81080350bd" />
+
+
+<img width="1512" height="2016" alt="IMG_5296" src="https://github.com/user-attachments/assets/242f0cf6-5986-41dd-b49d-436b714a6309" />
+
+
+<img width="3024" height="4032" alt="IMG_5293" src="https://github.com/user-attachments/assets/f7c516e8-a0e6-40d0-a22d-19592ace5b0d" />
+
+
+<img width="1010" height="2184" alt="IMG_5291" src="https://github.com/user-attachments/assets/b06b436c-81e7-4a08-be48-e064315d77e7" />
+
+
+<img width="1512" height="2016" alt="IMG_5278" src="https://github.com/user-attachments/assets/f8216517-bd74-4e5e-bb7a-c15d9dc3c1d8" />
