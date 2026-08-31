@@ -1,4 +1,5 @@
-<img width="852" height="935" alt="Screenshot 2026-08-31 072940" src="https://github.com/user-attachments/assets/973cfc27-c703-447f-8acd-72f2cd2e0624" />
+<img width="361" height="604" alt="Screenshot 2026-08-31 073349" src="https://github.com/user-attachments/assets/0aab7583-c9f7-462b-82cd-3da4feaec14e" />
+
 # tricorder
 
 live demo video
