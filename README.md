@@ -3,6 +3,9 @@
 live demo video
 https://youtube.com/shorts/OVZqemHC8wk?si=uQSmCym5YTsL-y6H
 
+talking machine vision demo
+https://youtube.com/shorts/wSPW4QW086M?si=nUyQKdyEGCV8ra9c
+
 rent-a-hal tricorder:  chat, vision, imagine and speech for android 100 % on device AI with multi-modal UX
 <img width="2752" height="1536" alt="Offline_AI_on_Legacy_Hardware" src="https://github.com/user-attachments/assets/7c3a4934-5358-436d-ac8a-45ba219d345f" />
 
