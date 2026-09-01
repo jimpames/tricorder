@@ -1,3 +1,12 @@
+ 1 sep 26
+ 
+use the file
+
+Tricorder-0.4.1-inquiry-fix.apk
+
+after you install all the zip stuff
+
+
 <img width="361" height="604" alt="Screenshot 2026-08-31 073349" src="https://github.com/user-attachments/assets/0aab7583-c9f7-462b-82cd-3da4feaec14e" />
 
 now w on device audio classification - use apk in repo
