@@ -4,6 +4,10 @@ now w on device audio classification - use apk in repo
 
 https://youtube.com/shorts/gERrC3hePBA?feature=share
 
+
+now w birdcall identification
+
+
 # tricorder
 
 live demo video
