@@ -8,6 +8,10 @@ https://youtube.com/shorts/gERrC3hePBA?feature=share
 now w birdcall identification
 https://youtube.com/shorts/qsihwQrngNE?si=FOVGWK_o1j5Hkm61
 
+
+
+<img width="522" height="872" alt="Screenshot 2026-09-01 130105" src="https://github.com/user-attachments/assets/f9e28264-7dd7-4d4f-834b-e8f0d919583c" />
+
 # tricorder
 
 live demo video
