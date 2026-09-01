@@ -4,6 +4,13 @@ use the file
 
 Tricorder-0.4.1-inquiry-fix.apk
 
+this version identifies floura, fauna, sounds, birdcalls. 
+
+as well as combines chat, vision, imagine and speech on device.
+
+features a log you can replay.
+
+
 after you install all the zip stuff
 
 
