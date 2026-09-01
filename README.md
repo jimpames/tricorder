@@ -1,3 +1,10 @@
+1 sep 26
+
+you can get the entire up to date project from the release now, 
+or use the zip in the repo and then the recommended latest apk
+
+https://github.com/jimpames/tricorder/releases/download/rent-a-hal-AI-for-android-v-0-9-beta/project-tricorder-0.4.1.zip****
+
 <img width="1512" height="2016" alt="IMG_5325" src="https://github.com/user-attachments/assets/52a294b8-0483-47bf-a845-8fcf753b4407" />
  1 sep 26
  
