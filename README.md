@@ -1,5 +1,9 @@
 <img width="361" height="604" alt="Screenshot 2026-08-31 073349" src="https://github.com/user-attachments/assets/0aab7583-c9f7-462b-82cd-3da4feaec14e" />
 
+now w on device audio classification - use apk in repo
+
+https://youtube.com/shorts/gERrC3hePBA?feature=share
+
 # tricorder
 
 live demo video
