@@ -6,7 +6,7 @@ https://youtube.com/shorts/gERrC3hePBA?feature=share
 
 
 now w birdcall identification
-
+https://youtube.com/shorts/qsihwQrngNE?si=FOVGWK_o1j5Hkm61
 
 # tricorder
 
