@@ -1,4 +1,5 @@
 1 sep 26
+<img width="2752" height="1536" alt="Project_Software-Defined_Field_Instrument" src="https://github.com/user-attachments/assets/2a6c991e-e88c-41c9-8b55-6b70998a1311" />
 
 you can get the entire up to date project from the release now, 
 or use the zip in the repo and then the recommended latest apk
