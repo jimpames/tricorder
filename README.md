@@ -1,4 +1,10 @@
 1 sep 26
+
+flora ID with video - class M planet
+
+https://youtube.com/shorts/yCOJXfKc20M?si=Ehe8zYvTRzmgWLbV
+
+
 <img width="2752" height="1536" alt="Project_Software-Defined_Field_Instrument" src="https://github.com/user-attachments/assets/2a6c991e-e88c-41c9-8b55-6b70998a1311" />
 
 you can get the entire up to date project from the release now, 
