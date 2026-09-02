@@ -4,7 +4,8 @@ you can get the entire up to date project from the release now,
 or use the zip in the repo and then the recommended latest apk
 
 - this release has tricorder-to-tricorder interlink, see the user guide.
-- 
+  https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Operations-Manual.pdf
+  
 
 https://github.com/jimpames/tricorder/releases/download/rent-a-hal-AI-for-android-v-0-9-beta/project-tricorder-0.4.1.zip****
 
