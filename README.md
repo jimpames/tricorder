@@ -4,6 +4,13 @@ flora ID with video - class M planet
 
 https://youtube.com/shorts/yCOJXfKc20M?si=Ehe8zYvTRzmgWLbV
 
+people are asking if this is a toy mockup or is it a real tricorder?
+
+of course it's real!! if you want a toy there are many - go find one
+
+- why would I post a mock up!?
+
+- it's 100% real and functional - read the manual - for this tricorder
 
 <img width="2752" height="1536" alt="Project_Software-Defined_Field_Instrument" src="https://github.com/user-attachments/assets/2a6c991e-e88c-41c9-8b55-6b70998a1311" />
 
