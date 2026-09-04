@@ -1,3 +1,16 @@
+4 sep 26
+
+now includes artificial horizon and e-compass
+
+<img width="1512" height="2016" alt="IMG_5343" src="https://github.com/user-attachments/assets/f8b86cf2-b78a-4b8f-8ee2-974f7fdbe0a4" />
+
+WARNING!
+
+** THE TRICORDER ARTIFICIAL HORIZON / E-COMPASS  IS NOT FAA CERTIFIED OR SPACE RATED.
+** 
+** THE TRICORDER MUST MEVER BE USED AS A PROMAY NAVIGATION INSTRUMENT FOR ANY FLYING CRAFT OR SPACESHIP
+
+
 3 sep 26
 
 use the release, below - get the zip - 
