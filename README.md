@@ -8,7 +8,11 @@ Tricorder-0.5.3-viewport.apk
 
 - now supports 50 language automatic spoken translation
 
-- 
+translator demo video
+
+https://youtube.com/shorts/MDNXRhQnc2M?si=viq78HgO-b_f4A2w
+
+ 
 1 sep 26
 
 flora ID with video - class M planet
