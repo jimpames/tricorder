@@ -11,6 +11,8 @@ the full release is linked below - the APK in the release is stale - use the APK
 
 the tricorder now detect and alerts when there are aircraft in your vicinity.
 
+https://youtube.com/shorts/PnPMwuEA5jc?si=Y8mBrhqxKxq0XdQE
+
 https://youtube.com/shorts/z220l6EItAs?si=x6JupEeVmamj7n_S
 
 
