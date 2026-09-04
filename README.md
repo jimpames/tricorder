@@ -2,6 +2,11 @@
 
 aircraft detection and alerting
 
+use this APK - most current:
+Tricorder-0.5.5-alert-hold.apk
+
+the full release is linked below - the APK in the release is stale - use the APK named above
+
 the tricorder now detect and alerts when there are aircraft in your vicinity.
 
 https://youtube.com/shorts/z220l6EItAs?si=x6JupEeVmamj7n_S
