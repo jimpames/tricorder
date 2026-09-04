@@ -1,3 +1,4 @@
+<img width="2752" height="1536" alt="Multimodal_Field_Instrument_Project_Overview" src="https://github.com/user-attachments/assets/1ecda407-d98a-486f-a824-b53cbf68b241" />
 4 sep 26
 
 aircraft detection and alerting
