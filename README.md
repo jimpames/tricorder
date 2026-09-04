@@ -2,6 +2,9 @@
 
 aircraft detection and alerting
 
+<img width="525" height="866" alt="Screenshot 2026-09-04 104602" src="https://github.com/user-attachments/assets/56d44cba-4a3e-4085-979a-5d36bc6296a6" />
+
+
 use this APK - most current:
 Tricorder-0.5.6-horizon-toggle.apk
 
