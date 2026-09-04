@@ -1,3 +1,14 @@
+3 sep 26
+
+use the release, below - get the zip - 
+
+then use this apk from the above files:
+
+Tricorder-0.5.3-viewport.apk
+
+- now supports 50 language automatic spoken translation
+
+- 
 1 sep 26
 
 flora ID with video - class M planet
