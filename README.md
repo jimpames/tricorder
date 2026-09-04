@@ -21,6 +21,9 @@ Tricorder-0.5.3-viewport.apk
 
 - now supports 50 language automatic spoken translation
 
+<img width="527" height="873" alt="Screenshot 2026-09-04 044435" src="https://github.com/user-attachments/assets/aabdd68a-1f2b-4a1e-aae7-a13a5e89d9a2" />
+
+
 translator demo video
 
 https://youtube.com/shorts/MDNXRhQnc2M?si=viq78HgO-b_f4A2w
