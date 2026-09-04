@@ -3,7 +3,9 @@
 aircraft detection and alerting
 
 use this APK - most current:
-Tricorder-0.5.5-alert-hold.apk
+Tricorder-0.5.6-horizon-toggle.apk
+
+notice the horizon display can toggle off/on now
 
 the full release is linked below - the APK in the release is stale - use the APK named above
 
