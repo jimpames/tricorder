@@ -2,6 +2,11 @@
 
 now includes artificial horizon and e-compass
 
+use the release zip for backend etc
+
+then use the APK above in the repo: 
+Tricorder-0.5.4-horizon-watch.apk
+
 <img width="1512" height="2016" alt="IMG_5343" src="https://github.com/user-attachments/assets/f8b86cf2-b78a-4b8f-8ee2-974f7fdbe0a4" />
 
 WARNING!
