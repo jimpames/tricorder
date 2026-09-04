@@ -1,5 +1,12 @@
 4 sep 26
 
+aircraft detection and alerting
+
+the tricorder now detect and alerts when there are aircraft in your vicinity.
+
+https://youtube.com/shorts/z220l6EItAs?si=x6JupEeVmamj7n_S
+
+
 now includes artificial horizon and e-compass
 
 use the release zip for backend etc
