@@ -1,5 +1,14 @@
 5 sep 26
 
+use this apk:Tricorder-0.6.4-sky.apk
+
+now includes:
+- gravity meter and speed on artificial horizon (GPS-based speed, earth speeds only)
+
+- star map
+- satellite map
+
+  
 use this APK:
 
 Tricorder-0.6.1-js-fix.apk
