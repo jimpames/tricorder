@@ -1,3 +1,15 @@
+5 sep 26
+
+use this APK:
+
+Tricorder-0.6.1-js-fix.apk
+
+use the RELEASE linked below - but the APK above...
+
+- notes - this apk polished the tricorder GUI with help , credits and automated floura/fauna/birdnet/translator setup
+- as well as noaa and flight and safety alerts
+
+  
 <img width="2752" height="1536" alt="Multimodal_Field_Instrument_Project_Overview" src="https://github.com/user-attachments/assets/1ecda407-d98a-486f-a824-b53cbf68b241" />
 4 sep 26
 video overview
