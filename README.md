@@ -1,4 +1,5 @@
 6 sep 26
+<img width="1376" height="768" alt="tricorder_architecture_schematic" src="https://github.com/user-attachments/assets/3004229e-d1a9-4916-983e-72624366b2db" />
 
 use this file from the files above:
 Tricorder-0.6.8-earth-scroll.apk
