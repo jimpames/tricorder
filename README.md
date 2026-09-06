@@ -4,6 +4,9 @@
 use this file from the files above:
 Tricorder-0.6.8-earth-scroll.apk
 
+new features demo:
+https://www.youtube.com/shorts/-FUhsDLzfAs
+
 full system in RELEASE linked below, but be sure to use APK above.
 
 - SOL scanner button
