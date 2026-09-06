@@ -1,4 +1,13 @@
 6 sep 26
+
+0.6.8 release is below
+
+here is the entire project, all source, and the APK
+
+[sha256:f98dd7e897471698d0831d71e960aa1ad9b94dc9d1e105c30e721f1625add4a1
+](https://github.com/jimpames/tricorder/releases/download/rent-a-hal-tricorder-0.6.8-release/project-tricorder-0.6.8.zip)
+
+
 <img width="1376" height="768" alt="tricorder_architecture_schematic" src="https://github.com/user-attachments/assets/3004229e-d1a9-4916-983e-72624366b2db" />
 <img width="2752" height="1536" alt="Multimodal_Field_Instrument_Interface" src="https://github.com/user-attachments/assets/23d3b2a0-7e24-4b6a-99f3-46d787250d5f" />
 
