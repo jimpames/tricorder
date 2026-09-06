@@ -3,7 +3,7 @@
 use this file from the files above:
 Tricorder-0.6.8-earth-scroll.apk
 
-full system in RELEASE linked below, but be sure to use APK Kabove.
+full system in RELEASE linked below, but be sure to use APK above.
 
 - SOL scanner button
 - - shows planetary orbit current map, space weather
