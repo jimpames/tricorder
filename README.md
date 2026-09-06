@@ -1,3 +1,16 @@
+6 sep 26
+
+use this file from the files above:
+Tricorder-0.6.8-earth-scroll.apk
+
+full system in RELEASE linked below, but be sure to use APK Kabove.
+
+- SOL scanner button
+- - shows planetary orbit current map, space weather
+  -  Earth radio propagation forecast
+  -   hyperlocal weather forecast for 72 hours
+  
+
 5 sep 26
 
 use this apk:Tricorder-0.6.4-sky.apk
