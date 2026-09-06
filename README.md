@@ -4,7 +4,7 @@
 
 here is the entire project, all source, and the APK
 
-[sha256:f98dd7e897471698d0831d71e960aa1ad9b94dc9d1e105c30e721f1625add4a1
+[tricorder project zip with 0.6.8 APK and source sha256:f98dd7e897471698d0831d71e960aa1ad9b94dc9d1e105c30e721f1625add4a1
 ](https://github.com/jimpames/tricorder/releases/download/rent-a-hal-tricorder-0.6.8-release/project-tricorder-0.6.8.zip)
 
 
