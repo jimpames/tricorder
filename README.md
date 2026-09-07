@@ -2,6 +2,11 @@
 
 0.6.8 release is below
 
+video - project tricorder: tech deep dive
+
+https://youtu.be/SsJDWRsaqX0?si=8AzlIHKMKePz-gNA
+
+
 here is the entire project, all source, and the APK
 
 [click here to download tricorder project zip with 0.6.8 APK and source sha256:f98dd7e897471698d0831d71e960aa1ad9b94dc9d1e105c30e721f1625add4a1
