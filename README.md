@@ -8,6 +8,11 @@ here is the entire project, all source, and the APK
 ](https://github.com/jimpames/tricorder/releases/download/rent-a-hal-tricorder-0.6.8-release/project-tricorder-0.6.8.zip)
 
 
+<img width="2752" height="1536" alt="Offline_Field_Instrument_Architecture_Overview" src="https://github.com/user-attachments/assets/16b24f39-88ec-4964-930f-45b1f5bc5482" />
+
+
+
+
 <img width="1376" height="768" alt="tricorder_architecture_schematic" src="https://github.com/user-attachments/assets/3004229e-d1a9-4916-983e-72624366b2db" />
 <img width="2752" height="1536" alt="Multimodal_Field_Instrument_Interface" src="https://github.com/user-attachments/assets/23d3b2a0-7e24-4b6a-99f3-46d787250d5f" />
 
