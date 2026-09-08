@@ -1,3 +1,13 @@
+8 sep 26
+
+now detects weapons and violence
+
+use
+Tricorder-0.6.14-audio-watch.apk
+
+https://youtube.com/shorts/rLpW3YuSCiU?si=Hmnh-mO4w-bs3vBm
+
+
 6 sep 26
 
 0.6.8 release is below
