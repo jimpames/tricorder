@@ -1,3 +1,13 @@
+9 sep 26
+
+now with dictation, AI summarization, mind mapping - and the ability to store a dictated note as a log
+
+- powerful dictation verbal editor
+
+- see the new manual
+
+  
+
 8 sep 26
 
 design deep dive
