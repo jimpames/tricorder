@@ -1,5 +1,10 @@
 8 sep 26
 
+design deep dive
+
+https://www.linkedin.com/pulse/project-tricorder-device-ai-id-objects-sounds-birdcalls-jim-ames-trxnc/
+
+
 now detects weapons and violence
 
 use
