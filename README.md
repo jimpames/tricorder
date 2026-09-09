@@ -6,6 +6,8 @@ now with dictation, AI summarization, mind mapping - and the ability to store a 
 
 - see the new manual
 
+use:
+Tricorder-0.6.18.apk from above repo
   
 
 8 sep 26
