@@ -1,8 +1,30 @@
+10 sep 26
+
+use:
+Tricorder-0.6.22.apk
+
+see new manual
+
+- robo voice always option on top row under IPL light - slide ROBO to the right to turn on off
+- - ROBO will show ON illuminated GREEN when active
+
+- flight detection now has departure and arrival city
+- flight detection has option for metric or English units
+- flight detection now says tail ID NXXXX altitude feet / miles per hour departure destination
+- flight detection always uses robo voice
+- artificial horizon display baro pressure and gps altitude, in addition to rose and g meter and speed
+
+- new command: DIAGNOSTICS in inquiry mode, gives tricorder diags
+
+- new command in DICTATION mode - PUNCTUATION - so you need a semicolon? say PUNCTUATION semicolon; question, period, etc
+
 9 sep 26
 
 now with dictation, AI summarization, mind mapping - and the ability to store a dictated note as a log
 
 - powerful dictation verbal editor
+
+say DICTATION in inquiry mode to activate
 
 - see the new manual
 
