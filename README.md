@@ -1,5 +1,9 @@
 10 sep 26
 
+TRICORDER: live demo on galaxy fold 3:
+
+https://youtube.com/shorts/JeAU4BzDGUk?si=g0wyWh-ZSoBQceSM
+
 use:
 Tricorder-0.6.22.apk
 
