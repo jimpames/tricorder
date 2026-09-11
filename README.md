@@ -2,6 +2,9 @@
 
 TRICORDER: live demo on galaxy fold 3:
 
+<img width="482" height="853" alt="tricorder" src="https://github.com/user-attachments/assets/49e9b0af-8972-48f7-bf79-f1676c58daf0" />
+
+
 https://youtube.com/shorts/JeAU4BzDGUk?si=g0wyWh-ZSoBQceSM
 
 https://youtube.com/shorts/GYyf1QLLB5k?si=Hp_tbPeMQINHa9T5
