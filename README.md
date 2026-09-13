@@ -1,5 +1,9 @@
 ## Sprint 13 Sep 2026 — knowledge banks + overhead cards
 
+use:
+
+Tricorder-0.6.29.apk
+
 Mk I now treats an overhead contact as an object you can inspect, and treats
 Memory Alpha / MEDICAL as spoken reference banks rather than another menu.
 
