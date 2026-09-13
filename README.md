@@ -1,3 +1,58 @@
+## Sprint 13 Sep 2026 — knowledge banks + overhead cards
+
+Mk I now treats an overhead contact as an object you can inspect, and treats
+Memory Alpha / MEDICAL as spoken reference banks rather than another menu.
+
+### Memory Alpha
+- Inquiry only. No face button. Say **MEMORY ALPHA** or, in one breath,
+  **memory alpha Airbus A320**.
+- Simple English Wikipedia titles and extracts, English Wikipedia fallback,
+  local article cache.
+- Bare wake opens the bank, speaks “online, speak a search,” and arms the mic.
+  `TERMINATE` or CLOSE leaves.
+- Typed SEARCH field on the sheet if you do not want to talk.
+
+### MEDICAL
+- Same voice pattern: **MEDICAL** or **medical pink eye** /
+  **medical puncture wound**.
+- WikiMed (`mdwiki.org`) is the title catalog only. Its REST article API is
+  Cloudflare-blocked from the phone, which is why early builds showed titles
+  and nothing else.
+- Body text and photographs load from English Wikipedia. Related titles stay
+  tappable.
+- Field briefing, not a clinician.
+
+### Overhead flight card
+Audio Sense + aircraft watch + Earth link + a GPS fix.
+- OpenSky box around the last fix, adsbdb type / owner / tail, route when
+  published.
+- Photograph, in order: adsbdb thumb → Planespotters hex/reg → airport-data
+  Mode-S → JetPhotos worker. JPEG is written into the field log.
+- **FROM / TO** cities are buttons.
+- **Photo** or **AIRFRAME FACTS** opens the type / owner / Mode-S / Wikipedia
+  card. The same photo rides on that card.
+- Robot voice, metric or English from Settings, departure and destination
+  spoken when known.
+
+### City dossiers
+Touch FROM or TO.
+- Wikipedia extract and thumbnail.
+- REST Countries (capital, population, region) when a country can be guessed.
+- CIA World Factbook snippet when the country is in the onboard GEC table.
+- Spoken.
+- **BACK TO AIRFRAME** restores the same craft photo so the other city can be
+  opened.
+
+### Pin, do not flash
+YAMNet was rewriting the CRT every dwell and wiping the picture. The card is
+pinned until **DISMISS AIRFRAME**. Audio still classifies and can still speak
+gunfire / siren / vehicle lines. CLOSE on the city or airframe sheet also
+restores a pinned card.
+
+### Help / manual
+Help sheet, spoken `HELP`, and on-device `manual.html` match Field Operations
+Manual Rev 0.6.28. Sideload **0.6.29** for that briefing on the phone.
+
 12 sep 26
 
 tricorder now summarizes findings
