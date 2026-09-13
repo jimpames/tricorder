@@ -2,6 +2,14 @@
 
 tricorder now summarizes findings
 
+use
+
+Tricorder-0.6.24.apk
+
+from files above
+
+
+
 <img width="3024" height="4032" alt="IMG_5476" src="https://github.com/user-attachments/assets/638c573a-caf8-4c63-8296-18e072ec2f36" />
 
 new manual
