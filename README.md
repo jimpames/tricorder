@@ -1,3 +1,11 @@
+14 sep 26
+
+demo of aircraft detection / airframe photo / airframe fact card / departure and destination city photo and description
+
+https://youtube.com/shorts/yuzfF6pPAzw?si=lsaTtwIQfht102_t
+
+<img width="580" height="884" alt="Screenshot 2026-09-14 123508" src="https://github.com/user-attachments/assets/f536eb72-76da-4711-8771-e1e6858001e0" />
+
 ## Sprint 13 Sep 2026 — knowledge banks + overhead cards
 
 use:
