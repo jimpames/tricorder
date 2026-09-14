@@ -1,5 +1,10 @@
 14 sep 26
 
+how to install the termux backend for tricorder 
+
+https://github.com/jimpames/tricorder/blob/main/TERMUX-BACKEND-INSTALL.md
+
+
 demo of aircraft detection / airframe photo / airframe fact card / departure and destination city photo and description
 
 https://youtube.com/shorts/yuzfF6pPAzw?si=lsaTtwIQfht102_t
