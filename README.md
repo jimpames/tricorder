@@ -2,6 +2,9 @@
 
 Tricorder-0.6.31.apk
 
+project-tricorder-0.6.31-source.zip
+
+
 say CLOCK for clock
 
 SOL button now includes moon phase tile
