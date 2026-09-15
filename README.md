@@ -1,3 +1,22 @@
+15 sep 26
+
+say CLOCK for clock
+
+SOL button now includes moon phase tile
+
+improved summarization
+
+<img width="1512" height="2016" alt="IMG_5515" src="https://github.com/user-attachments/assets/871aee67-2cd4-42dd-9b6d-ffc43904a783" />
+
+<img width="1512" height="2016" alt="IMG_5516" src="https://github.com/user-attachments/assets/ae3158a6-e263-47d0-8139-1a395150183a" />
+
+<img width="1512" height="2016" alt="IMG_5519" src="https://github.com/user-attachments/assets/53c83324-67f6-4269-b00a-7ed452f781bf" />
+
+<img width="1512" height="2016" alt="IMG_5518" src="https://github.com/user-attachments/assets/fa5a1901-595b-403c-af8c-8d735dfb5c44" />
+
+<img width="1512" height="2016" alt="IMG_5517" src="https://github.com/user-attachments/assets/893c6d6a-62e6-4898-95fc-9192c7c4918c" />
+
+
 14 sep 26
 
 how to install the termux backend for tricorder 
