@@ -1,5 +1,7 @@
 15 sep 26
 
+Tricorder-0.6.31.apk
+
 say CLOCK for clock
 
 SOL button now includes moon phase tile
