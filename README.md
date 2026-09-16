@@ -1,3 +1,9 @@
+16 sep 26
+
+voice control HF demo
+
+https://youtu.be/v2nPxCbIlZo?si=dL1uVn3ovVYQY5PT
+
 15 sep 26
 
 new 
