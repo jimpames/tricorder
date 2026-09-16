@@ -1,5 +1,10 @@
 15 sep 26
 
+notebook LM deep dive of TRICORDER OS for ANDROID
+
+https://github.com/jimpames/tricorder/blob/main/tricorder-android-os.pdf
+
+
 Tricorder-0.6.31.apk
 
 project-tricorder-0.6.31-source.zip
