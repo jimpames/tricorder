@@ -2,6 +2,13 @@
 
 new 
 
+5 minute demo live
+
+soundscape  ID
+
+https://youtu.be/7OXqAMdJ_pE?si=kePdtmHKoesyw8Bx
+
+
 tricorder operator guide
 
 https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Operations-Manual-0.6.32.pdf
