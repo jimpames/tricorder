@@ -2,6 +2,10 @@
 
 new 
 
+tricorder operator guide
+
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Operations-Manual-0.6.32.pdf
+
 Tricorder-0.6.32.apk
 
 hands free mode - operate the tricorder by voice
