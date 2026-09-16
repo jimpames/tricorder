@@ -1,5 +1,11 @@
 15 sep 26
 
+new 
+
+Tricorder-0.6.32.apk
+
+hands free mode - operate the tricorder by voice
+
 notebook LM deep dive of TRICORDER OS for ANDROID
 
 https://github.com/jimpames/tricorder/blob/main/tricorder-android-os.pdf
