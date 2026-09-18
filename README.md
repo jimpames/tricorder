@@ -1,3 +1,9 @@
+18 sep 26
+
+new book
+
+https://www.amazon.com/dp/B0HK7DVTRR
+
 16 sep 26
 
 voice control HF demo
