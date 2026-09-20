@@ -1,3 +1,14 @@
+20 sep 26
+
+bar charts for all readings
+
+Tricorder-0.6.35.apk
+
+better summarized readings charts
+
+better tail id / airframe repeat tracking
+
+
 19 sep 26
 
 Tricorder-0.6.33.apk
