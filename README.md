@@ -1,3 +1,12 @@
+19 sep 26
+
+Tricorder-0.6.33.apk
+
+new MUTE mode - touch ROBO until MUTE appears and glows RED
+
+improved graphics on summarize results
+
+
 18 sep 26
 
 new book
