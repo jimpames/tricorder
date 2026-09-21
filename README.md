@@ -2,9 +2,15 @@
 <img width="3024" height="4032" alt="IMG_5568" src="https://github.com/user-attachments/assets/b682784d-367e-4f3d-9cbd-d6d642d816db" />
 <img width="610" height="888" alt="Screenshot 2026-09-20 220435" src="https://github.com/user-attachments/assets/989614bb-d83a-46b6-8657-27f1eeb0ed05" />
 
+
+
 enhancements to flight tracking and some bugfixes
 
-tracks tail id and airframe frequency
+video of improved flight tracking
+
+https://youtube.com/shorts/cbe5uo67kVg?feature=share
+
+now tracks tail id and airframe frequency
 
 20 sep 26
 
