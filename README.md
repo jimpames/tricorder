@@ -1,3 +1,9 @@
+bugfixes
+
+20 sep 26
+
+Tricorder-0.6.37.apk
+
 <img width="1512" height="2016" alt="IMG_5555" src="https://github.com/user-attachments/assets/79b0a2f0-9ff3-4e2c-aa12-da5aa3580a97" />
 20 sep 26
 
