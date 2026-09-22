@@ -1,5 +1,5 @@
 22 sep 26
-
+Tricorder-0.6.47.apk
 now supports automatic tricorder to tricorder linking and alerting 
 - also supports tricorder to tricorder push to talk
   
