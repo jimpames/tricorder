@@ -2,7 +2,9 @@
 Tricorder-0.6.47.apk
 now supports automatic tricorder to tricorder linking and alerting 
 - also supports tricorder to tricorder push to talk
-  
+
+  showcase:
+  https://www.linkedin.com/pulse/tricorder-how-i-brought-star-trek-instrument-life-free-jim-ames-vjxcc/
 
 <img width="1512" height="2016" alt="IMG_5583" src="https://github.com/user-attachments/assets/3a4544e9-39a8-40f7-9eb0-94df24c1176b" />
 21 sep 26
