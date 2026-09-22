@@ -2,6 +2,9 @@
 
 now supports voice nav for camping / away teams
 
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.45.pdf
+
+
 <img width="1512" height="2016" alt="IMG_5582" src="https://github.com/user-attachments/assets/c9771513-d0b3-4978-9d2a-44da2e4543d7" />
 <img width="1512" height="2016" alt="IMG_5581" src="https://github.com/user-attachments/assets/c1d370ea-f3d4-4fde-b621-ee44f472f930" />
 
