@@ -1,3 +1,10 @@
+22 sep 26
+
+now supports automatic tricorder to tricorder linking and alerting 
+- also supports tricorder to tricorder push to talk
+  
+
+<img width="1512" height="2016" alt="IMG_5583" src="https://github.com/user-attachments/assets/3a4544e9-39a8-40f7-9eb0-94df24c1176b" />
 21 sep 26
 
 now supports voice nav for camping / away teams
