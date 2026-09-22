@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Tricorder Mk I - Field Manual 0.6.37</title>
+<style>
+body{margin:0;background:#0d1712;color:#d8ffe8;font:15px/1.45 "IBM Plex Mono",ui-monospace,monospace;padding:20px 16px 48px}
+a{color:#7dffb0}h1{font-size:18px;letter-spacing:.12em;text-transform:uppercase;color:#7dffb0}
+h2{font-size:14px;color:#ffb454;margin-top:22px}
+.warn{border:1px solid #ff5b3d;background:#2a100c;color:#ffd0c4;padding:12px;margin:16px 0}
+code{color:#7dffb0}
+</style></head><body>
+<div><a href="tricorder-ui-shell.html">Return to tricorder</a></div>
+<h1>Project Tricorder Mk I · Field manual · Rev 0.6.37</h1>
+<p>Jim Ames, Claude and Grok · N2NHU Labs · Newburgh, New York 12550. RENT-A-HAL Android Edition. Supersedes 0.6.32. Companion Word file: Project-Tricorder-MkI-Operations-Manual-0.6.37.docx.</p>
+<div class="warn"><strong>NAVIGATION WARNING.</strong> Not certified by FAA, NASA, EASA, or ICAO. Horizon, G-meter, GPS speed, baro altitude proxy, satellites, stars, SOL orbits, moon phase, GNSS clock, and HF forecasts MUST NEVER be used to fly, land, or navigate any craft. The satellite clock is a field novelty, not a time standard. This load is not DO-178C airborne software.</div>
+<div class="warn"><strong>WATCH WARNING.</strong> Weapon and gunfire lines are caption keywords and YAMNet labels. Not a weapons detector. Not a 911 substitute.</div>
+<div class="warn"><strong>MEDICAL NOTE.</strong> MEDICAL is an encyclopedia briefing, not a clinician. MEMORY ALPHA is Simple English Wikipedia, not the Star Trek wiki.</div>
+<div class="warn"><strong>MARKS.</strong> Not authorized by or affiliated with The Wand Company, Paramount SkyDance, Desilu, Gulf and Western, CBS, Roddenberry Entertainment, or Wah Chang.</div>
+
+<h2>Face</h2>
+<p><b>I</b> Inquiry · <b>II</b> Sensor · <b>III</b> Sentry (continuous default) · <b>IV</b> Audio · <b>T / XLATE</b> Translator · <b>H</b> Horizon · <b>S</b> Sat/Stars · <b>O</b> Sol (space → earth weather → moon → off) · <b>L E V P</b> logs · <b>IPL / ALL</b> abort · <b>STT</b> kill speech.</p>
+<p><b>ROBO</b> four-state cycle: dark = Kokoro · green <code>ROBO</code> = Android robot voice · yellow <code>[H/F R]</code> = robot + hands-free top-level listen · red <code>[MUTE]</code> = silent observer (CRT and log only, no voice, no alert tones). Next touch returns dark / Kokoro.</p>
+<p>Spoken overlays: <code>SETTINGS</code>, <code>BACK END</code> / <code>BACKEND</code> / <code>CAMERA</code>, <code>HELP</code>, <code>DIAGNOSTICS</code>, <code>COMPUTER</code>, <code>CLOCK</code>, <code>DICTATION</code>, and the <code>TRICORDER …</code> menu.</p>
+
+<h2>0.6.37 — CRT stack and cattle</h2>
+<p>Detector bars on Audio / Sensor / Sentry now stack <b>weakest on top, HIGHLY LIKELY on the bottom</b> of the CRT so the green winner stays in frame after auto-scroll. Wrapped labels no longer hide the lead bar.</p>
+<p>Bucket bug: the linker used <code>\bcat</code>, which matched YAMNet’s <code>Cattle, bovinae</code>. Mooing therefore painted as CAT. Cattle / moo / cow is its own bucket; cat only matches <code>cat</code> / <code>cats</code>.</p>
+
+<h2>0.6.36 — flight readings isolation</h2>
+<p>By-airframe / by-tail timelines were walking neighboring YAMNet lines (<code>Silence</code>, <code>Speech</code>) because every listen wrote a field-log row and the bar used file-line index.</p>
+<p>Fix: a flights bar only accepts <code>kind=flight</code> (or a flight/context row with tail/type). Playback is by log <b>id</b>, not “next line.” Raw listen noise (Silence, Speech, Quiet) stays in the audio log and is not a field-log event unless BirdNET named a bird.</p>
+<p>Old mixed rows remain in the book. New overheads chart clean.</p>
+
+<h2>0.6.34–0.6.35 — live detector and LED meter</h2>
+<p><b>TOP 3.</b> Audio, Sensor, and Sentry keep the raw percent list. Scroll the CRT <i>up</i> for it. Under that list a fused TOP 3: same family collapses (barred owl + hoot → owl). #1 HIGHLY LIKELY glows green when it leads; other possibles yellow; junk tails red. Charts refresh every listen/scan. Auto-scroll parks the phosphor on the bars.</p>
+<p><b>LED.</b> Scroll text is <code>#1 LABEL  72%</code>. Right-hand vertical tube: 0% bottom, 100% top. Fill is solid below the reading, outline only above it. Amber pointer on the live percent. Heading/ACC chatter does not overwrite that while a detection is live.</p>
+<p><b>Readings drill.</b> Top chart is still HUMANS / VEHICLES / FLIGHTS / …. Touch a bar for that category’s sub-bars and its log timeline. BACK returns to the summary. Flights: <b>By tail</b> and <b>By airframe</b>. Photo on a flight row opens the airframe card. FROM/TO open the city dossier.</p>
+<p><b>Overhead set.</b> A pinned flight card also shows a small queue chart of tails and types already in the overhead set (up to several concurrent hits).</p>
+
+<h2>0.6.33 — MUTE</h2>
+<p>Fourth ROBO state. Red <code>[MUTE]</code>: no Kokoro, no robot voice, no klaxon/chime. Screen and field log still write. Silent observer / camp unit that must not announce itself. Next touch returns Kokoro (dark).</p>
+
+<h2>0.6.32 — hands-free TRICORDER menu</h2>
+<p>Yellow <code>[H/F R]</code>: say the ship name first, then the function. Leave a mode with the face button.</p>
+<p>Commands: <code>TRICORDER SENSOR</code> · <code>AUDIO</code> · <code>SENTRY</code> · <code>TRANSLATOR</code> / <code>TRANSLATE</code> · <code>HORIZON</code> · <code>SATELLITES</code> · <code>SOL</code> · <code>CLOCK</code> · <code>DICTATION</code> · <code>SETTINGS</code> · <code>BACK END</code> · <code>DIAGNOSTICS</code> · <code>SUMMARIZE READINGS</code> · <code>HELP</code>.</p>
+<p>While yellow, speech that is not a TRICORDER line is ignored. Audio, translator, clock, and dictation own the microphone while they are up. Aliases include “trick order” and “tric order.”</p>
+
+<h2>0.6.30–0.6.31 — satellite clock, moon, places</h2>
+<p><b>CLOCK.</b> Say <code>CLOCK</code> or <code>TRICORDER CLOCK</code>. Analog or digital, 12- or 24-hour. After the face opens: <code>analog</code>, <code>digital</code>, <code>twelve hour</code>, <code>twenty four hour</code>, <code>timer coffee five minutes</code>, <code>cancel timer coffee</code>, <code>cancel all</code>, <code>explain</code>, <code>terminate</code>.</p>
+<p>GNSS lock uses Android GnssClock (GPS TimeNanos minus full bias minus bias, leap seconds to UTC). Display 4 Hz; hardware epoch ~1 Hz interpolated. Fold 3 open-sky uncertainty is typically tens to a few hundred nanoseconds — field clock, not a standard. Until lock, device wall time. Field-log timestamps stay ordinary milliseconds.</p>
+<p><b>Moon.</b> Sol cycle: space weather + orbits + HF/VHF/UHF → local earth forecast (six hours + three-day outlook, scroll) → moon phase → off. Voice <code>MOON</code> / <code>MOON PHASE</code> walks Sol to the moon panel.</p>
+<p><b>Places.</b> Logs, sensed events, and the horizon carry city/state when Geocoder has it, plus an offline Open Location Code (plus code). Optional what3words key in settings. Raw lat/lon still stored.</p>
+
+<h2>0.6.28 — MEDICAL extracts, pinned airframe, city BACK</h2>
+<p><b>MEDICAL.</b> WikiMed is a title catalog. Body and photographs from English Wikipedia. Say <code>medical pink eye</code>.</p>
+<p><b>Pinned airframe.</b> Overhead card stays until <code>DISMISS AIRFRAME</code>. Audio may still speak alerts; it does not steal the picture.</p>
+<p><b>City BACK.</b> FROM / TO opens the city dossier. <code>BACK TO AIRFRAME</code> returns the same craft photo.</p>
+
+<h2>0.6.26–0.6.27 — flights + knowledge banks</h2>
+<p><b>Overhead card.</b> OpenSky + adsbdb type/owner/tail. Photo: Planespotters, airport-data, JetPhotos. JPEG in the field log. Touch photo for airframe facts. Touch FROM/TO for city dossier.</p>
+<p>One-shot: <code>memory alpha Airbus A320</code>. Bare bank name opens the prompt and arms the mic. <code>TERMINATE</code> closes. MEMORY ALPHA is Simple English Wikipedia, cached on device. No 30 MB illustrated ZIM is shipped.</p>
+
+<h2>0.6.22–0.6.25 — readings</h2>
+<p><code>SUMMARIZE READINGS [vehicles|flights|birds|…] [day|week|month|all]</code>. Letter bars A B C, QTY, color legend. Touch a bar for that category’s timeline. Day/Week/Month/All chips live.</p>
+<p>TTS length slider 400–8000. Unit does not classify its own speech as humans detected while talking.</p>
+
+<h2>Dictation (0.6.15–0.6.21)</h2>
+<p>Wake: <code>dictation</code> or <code>TRICORDER DICTATION</code>. NEW · EDIT nnnn · LOG nnnn (CONFIRMED) · SUMMARIZE nnnn · MINDMAP keyword · SPEAK nnnn · KILL nnnn (CONFIRMED) · TERMINATE. ZULU then SAVE or ABORT.</p>
+<p>Buffer: CURSOR MINUS / PLUS word · BACKSPACE · NEWLINE · CUT / CUT WORD · PASTE · HOME / END. <code>PUNCTUATION PERIOD</code> (also bare PERIOD / DOT).</p>
+
+<h2>Watch / IPL (0.6.9–0.6.14)</h2>
+<p>Sentry captions every dwell. Sure weapon: klaxon + WEAPON DETECTED x3. Possible weapon: chime. Motion does not gate.</p>
+<p>Audio priority: gunfire x3 + klaxon; scream; siren x3; air/rail/ship; vehicles; named animal; humans x3; entertainment. Fireworks can look like gunfire.</p>
+<p>IPL aborts in-flight work. Kokoro slider kills speech. Text over 80 characters is chunked.</p>
+
+<h2>SOL / sky / horizon</h2>
+<p>O Sol cycles space + HF/VHF/UHF, earth forecast, moon phase, then off. S toggles satellites and stars. Horizon shows heading, G, GPS speed, baro altitude proxy, and place line. All of it is a toy. Not for flight.</p>
+
+<h2>Backends</h2>
+<p>Termux four-pack on loopback: chat :8080, vision :8081, image :8188, tts :5000. Launch with <code>~/bin/tricorder start</code>. Image sliders: steps and size (256 / 384 / 512). See TERMUX-BACKEND-INSTALL.md in the source tree.</p>
+<p>On-device packs (APK, no Termux): YAMNet, optional BirdNET fetch, flora/fauna fetch, translator language packs. First-boot will pull missing packs when Earth link exists.</p>
+</body></html>
