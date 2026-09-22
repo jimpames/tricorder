@@ -1,3 +1,12 @@
+21 sep 26
+
+now supports voice nav for camping / away teams
+
+<img width="1512" height="2016" alt="IMG_5582" src="https://github.com/user-attachments/assets/c9771513-d0b3-4978-9d2a-44da2e4543d7" />
+<img width="1512" height="2016" alt="IMG_5581" src="https://github.com/user-attachments/assets/c1d370ea-f3d4-4fde-b621-ee44f472f930" />
+
+
+
 <img width="3024" height="4032" alt="IMG_5573" src="https://github.com/user-attachments/assets/a392e0c1-5611-4d6e-b66c-c7647e32e7ed" />
 <img width="3024" height="4032" alt="IMG_5574" src="https://github.com/user-attachments/assets/b5bb31d7-bdc6-4f9e-9a1b-46c2e022190d" />
 <img width="3024" height="4032" alt="IMG_5572" src="https://github.com/user-attachments/assets/6ed53d23-3d89-4577-b03e-9dd294d12de1" />
