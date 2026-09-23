@@ -1,3 +1,7 @@
+<img width="1601" height="856" alt="bestseller" src="https://github.com/user-attachments/assets/01256b7e-97f0-4a38-a16b-ac15863f70cf" />
+
+https://www.amazon.com/TRICORDER-brought-Star-Trek-Instrument-ebook/dp/B0HK7DVTRR
+
 22 sep 26
 Tricorder-0.6.47.apk
 now supports automatic tricorder to tricorder linking and alerting 
