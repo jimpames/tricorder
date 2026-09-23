@@ -1,5 +1,9 @@
 23 sep 26
 
+function cards 3x5 - print and laminate 
+
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Cards-3x5.pdf
+
 manual
 https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.57.pdf
 
