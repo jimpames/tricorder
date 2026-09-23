@@ -1,3 +1,9 @@
+23 sep 26
+
+manual
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.57.pdf
+
+
 <img width="1601" height="856" alt="bestseller" src="https://github.com/user-attachments/assets/01256b7e-97f0-4a38-a16b-ac15863f70cf" />
 
 https://www.amazon.com/TRICORDER-brought-Star-Trek-Instrument-ebook/dp/B0HK7DVTRR
