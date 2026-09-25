@@ -15,7 +15,7 @@ https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manu
 
 use
 
-Tricorder-0.6.71.apk
+Tricorder-0.6.76.apk
 
 
 <img width="1512" height="2016" alt="IMG_5589" src="https://github.com/user-attachments/assets/27286729-c973-42ca-a20c-18450b92d406" />
