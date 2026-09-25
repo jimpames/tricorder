@@ -1,7 +1,11 @@
 25 sep 26
 
+<img width="2752" height="1536" alt="M-TOR_System_Design_Architecture_Diagram" src="https://github.com/user-attachments/assets/677db08f-db87-400f-870c-6a81e3b8f419" />
+
 use
-Tricorder-0.6.66.apk
+
+Tricorder-0.6.71.apk
+
 
 <img width="1512" height="2016" alt="IMG_5589" src="https://github.com/user-attachments/assets/27286729-c973-42ca-a20c-18450b92d406" />
 
