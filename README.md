@@ -1,4 +1,7 @@
 25 sep 26
+improved glass cockpit in landscape mode - FULL SCREEN
+
+<img width="4031" height="2015" alt="IMG_5590" src="https://github.com/user-attachments/assets/fa6d0fd2-bf73-4351-8009-1a18e8299565" />
 
 <img width="2752" height="1536" alt="M-TOR_System_Design_Architecture_Diagram" src="https://github.com/user-attachments/assets/677db08f-db87-400f-870c-6a81e3b8f419" />
 
