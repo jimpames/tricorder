@@ -1,3 +1,8 @@
+25 sep 26
+
+use
+Tricorder-0.6.66.apk
+
 <img width="1512" height="2016" alt="IMG_5589" src="https://github.com/user-attachments/assets/27286729-c973-42ca-a20c-18450b92d406" />
 
 25 sep 26
