@@ -11,9 +11,7 @@ https://www.youtube.com/watch?v=jxcRtC82qiQ
 
 manual
 
-https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.71.pdf
-
-use
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.76.pdf
 
 Tricorder-0.6.76.apk
 
