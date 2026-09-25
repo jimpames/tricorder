@@ -2,6 +2,10 @@
 
 <img width="2752" height="1536" alt="M-TOR_System_Design_Architecture_Diagram" src="https://github.com/user-attachments/assets/677db08f-db87-400f-870c-6a81e3b8f419" />
 
+manual
+
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.71.pdf
+
 use
 
 Tricorder-0.6.71.apk
