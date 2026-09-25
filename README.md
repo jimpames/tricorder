@@ -1,3 +1,10 @@
+<img width="1512" height="2016" alt="IMG_5589" src="https://github.com/user-attachments/assets/27286729-c973-42ca-a20c-18450b92d406" />
+
+25 sep 26
+
+now supports meshtastic / lora for tricorder mesh network
+
+
 <img width="507" height="840" alt="democard" src="https://github.com/user-attachments/assets/b0a93094-52b4-46ee-b16a-f43178ebea8a" />
 23 sep 26
 
