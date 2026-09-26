@@ -1,3 +1,13 @@
+26 sep 26
+
+manual
+
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.78.pdf
+
+Tricorder-0.6.78.apk
+
+bugfixes - enhancements 
+
 25 sep 26
 improved glass cockpit in landscape mode - FULL SCREEN
 
@@ -12,11 +22,7 @@ video overview, theory of operation, TRICORDER/OS
 
 https://www.youtube.com/watch?v=jxcRtC82qiQ
 
-manual
 
-https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.76.pdf
-
-Tricorder-0.6.76.apk
 
 
 <img width="1512" height="2016" alt="IMG_5589" src="https://github.com/user-attachments/assets/27286729-c973-42ca-a20c-18450b92d406" />
