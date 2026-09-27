@@ -1,3 +1,11 @@
+27 sep 26
+
+icons for buttons ; bugfixes
+<img width="3024" height="4032" alt="IMG_5596" src="https://github.com/user-attachments/assets/0f8a2ac6-f774-418d-8aa7-28b5ee3314e4" />
+
+
+Tricorder-0.6.80.apk
+
 26 sep 26
 
 manual
