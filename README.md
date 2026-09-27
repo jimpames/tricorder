@@ -10,7 +10,7 @@ Tricorder-0.6.80.apk
 
 manual
 
-https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.78.pdf
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.80.pdf
 
 Tricorder-0.6.78.apk
 
