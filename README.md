@@ -1,6 +1,8 @@
 27 sep 26
 tricorder log viewer for windows
 
+Tricorder-LCARS-Log-Viewer (4).zip
+
 <img width="1898" height="1061" alt="log-viewer-for-windows" src="https://github.com/user-attachments/assets/5f5187c3-6f55-4e4c-9b3c-96b4767f56e3" />
 
 demo video
