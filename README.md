@@ -1,5 +1,9 @@
 29 sep 26
 
+nav video overview
+
+https://youtube.com/shorts/dTr3to4oAQ8?si=_PoM5N85helHy6jP
+
 artifical horizon
 
 added altimeter and vertical air speed indicators 
