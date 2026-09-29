@@ -3,6 +3,14 @@
 
 nav video overview
 
+supports CAMP marker
+
+shows all tricorders on map
+
+shows your journey in green
+
+talks you back to camp with BACKTRACK button
+
 https://youtube.com/shorts/dTr3to4oAQ8?si=_PoM5N85helHy6jP
 
 artifical horizon
