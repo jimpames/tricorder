@@ -1,3 +1,12 @@
+29 sep 26
+
+improved glass cockpit
+
+Tricorder-0.6.92.apk
+
+
+<img width="4029" height="1702" alt="IMG_5603" src="https://github.com/user-attachments/assets/b9cf6d8c-bb18-4ad6-8639-d6eda65bf9f5" />
+
 <img width="531" height="880" alt="nav" src="https://github.com/user-attachments/assets/da4715d4-a7d0-4e0c-ad85-f76805a282e8" />
 29 sep 26
 
