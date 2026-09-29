@@ -1,3 +1,14 @@
+29 sep 26
+
+artifical horizon
+
+added altimeter and vertical air speed indicators 
+
+Tricorder-0.6.82.apk
+
+<img width="4032" height="1712" alt="IMG_5599" src="https://github.com/user-attachments/assets/4410c9e4-773e-4a80-897a-61a00d944fbe" />
+
+
 27 sep 26
 tricorder log viewer for windows
 
