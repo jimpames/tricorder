@@ -2,7 +2,11 @@
 
 Project-Tricorder-MkI-Field-Manual-0.6.92.pdf
 
+https://github.com/jimpames/tricorder/blob/main/Project-Tricorder-MkI-Field-Manual-0.6.92.pdf
+
 project-tricorder-0.6.92-source.zip
+
+Tricorder-0.6.92.apk
 
 
 
