@@ -2,6 +2,9 @@
 
 Project-Tricorder-MkI-Field-Manual-0.6.92.pdf
 
+project-tricorder-0.6.92-source.zip
+
+
 
 
 29 sep 26
