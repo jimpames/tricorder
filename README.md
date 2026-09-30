@@ -1,3 +1,9 @@
+30 sep 26
+
+Project-Tricorder-MkI-Field-Manual-0.6.92.pdf
+
+
+
 29 sep 26
 
 improved glass cockpit
