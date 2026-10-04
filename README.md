@@ -1,3 +1,10 @@
+4 oct 26
+
+second tricorder is online, getting ready to build subspace meshtastic link
+
+https://youtube.com/shorts/6JJVpbXRy3M?si=Pwua1B4-nAefCg0A
+
+
 30 sep 26
 
 Project-Tricorder-MkI-Field-Manual-0.6.92.pdf
