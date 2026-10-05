@@ -5,7 +5,7 @@ subspace protocol (meshtastic/lora)
 https://github.com/jimpames/tricorder/blob/main/TRICORDER-OS-protocol-and-spec-v1.pdf
 
 
-Tricorder-0.6.108-fold3-debug.apk
+Tricorder-0.6.111-fold3-debug.apk
 
 tricorder to tricorder PTT and event passing via SUBSPACE [communications/lora]
 
