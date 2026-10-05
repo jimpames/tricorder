@@ -1,0 +1,36 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Pack a Termux tricorder backend so a second Fold can untar and start.
+# Run on the donor:  bash ~/bin/tricorder-pack
+set -u
+ROOT="$HOME"
+STAGE="$ROOT/tricorder-pack-stage"
+OUT="/sdcard/Download/tricorder-backend.tgz"
+PY="$PREFIX/lib/python3.14/site-packages"
+rm -rf "$STAGE"
+mkdir -p "$STAGE/llama.cpp/build/bin" "$STAGE/stable-diffusion.cpp/build/bin" "$STAGE/bin" \
+  "$STAGE/prefix/lib/python3.14/site-packages"
+
+cp -a "$ROOT/bin/tricorder" "$STAGE/bin/"
+cp -a "$ROOT/models" "$STAGE/models"
+cp -a "$ROOT/kokoro" "$STAGE/kokoro"
+cp -a "$ROOT/llama.cpp/build/bin/llama-server" "$STAGE/llama.cpp/build/bin/"
+cp -a "$ROOT/llama.cpp/build/bin"/libllama*.so* "$STAGE/llama.cpp/build/bin/"
+cp -a "$ROOT/llama.cpp/build/bin"/libggml*.so* "$STAGE/llama.cpp/build/bin/"
+cp -a "$ROOT/llama.cpp/build/bin"/libmtmd*.so* "$STAGE/llama.cpp/build/bin/"
+cp -a "$ROOT/stable-diffusion.cpp/build/bin/sd-server" "$ROOT/stable-diffusion.cpp/build/bin/sd-cli" "$STAGE/stable-diffusion.cpp/build/bin/"
+
+cp -a "$PREFIX/lib"/libprotobuf*.so* "$PREFIX/lib"/libre2.so* "$PREFIX/lib"/libutf8_validity.so* "$STAGE/prefix/lib/"
+
+for mod in onnxruntime kokoro_onnx espeakng_loader phonemizer dlinfo cffi soundfile joblib attrs typing_extensions; do
+  [[ -e "$PY/$mod" ]] && cp -a "$PY/$mod" "$STAGE/prefix/lib/python3.14/site-packages/"
+done
+cp -a "$PY"/_cffi_backend*.so "$PY"/soundfile.py "$PY"/_soundfile*.so "$STAGE/prefix/lib/python3.14/site-packages/" 2>/dev/null || true
+
+test -f "$STAGE/llama.cpp/build/bin/libllama-common.so.0" || { echo "MISSING libllama-common.so.0"; exit 1; }
+test -f "$STAGE/kokoro/server.py" || { echo "MISSING kokoro/server.py"; exit 1; }
+test -d "$STAGE/prefix/lib/python3.14/site-packages/onnxruntime" || { echo "MISSING onnxruntime"; exit 1; }
+
+tar -czf "$OUT" -C "$STAGE" .
+ls -lh "$OUT"
+echo "packed. new phone: pkg install, then bash tricorder-unpack"
+rm -rf "$STAGE"

@@ -1,0 +1,30 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Restore a tricorder-backend.tgz made by tricorder-pack.
+set -u
+TGZ="${1:-/sdcard/Download/tricorder-backend.tgz}"
+STAGE="$HOME/tricorder-unpack-stage"
+rm -rf "$STAGE"
+mkdir -p "$STAGE"
+tar -xzf "$TGZ" -C "$STAGE"
+mkdir -p "$HOME/llama.cpp/build/bin" "$HOME/stable-diffusion.cpp/build/bin" "$HOME/bin"
+cp -a "$STAGE/llama.cpp/build/bin/." "$HOME/llama.cpp/build/bin/"
+cp -a "$STAGE/stable-diffusion.cpp/build/bin/." "$HOME/stable-diffusion.cpp/build/bin/"
+cp -a "$STAGE/bin/tricorder" "$HOME/bin/tricorder"
+cp -a "$STAGE/models" "$HOME/models"
+cp -a "$STAGE/kokoro" "$HOME/kokoro"
+if [[ -d "$STAGE/prefix/lib" ]]; then
+  mkdir -p "$PREFIX/lib/python3.14/site-packages"
+  cp -a "$STAGE/prefix/lib/." "$PREFIX/lib/"
+fi
+chmod +x "$HOME/bin/tricorder" "$HOME/llama.cpp/build/bin/llama-server" \
+  "$HOME/stable-diffusion.cpp/build/bin/sd-server" "$HOME/stable-diffusion.cpp/build/bin/sd-cli"
+grep -q 'HOME/bin' "$HOME/.bashrc" || echo 'export PATH="$HOME/bin:$PATH"' >> "$HOME/.bashrc"
+grep -q PHONEMIZER_ESPEAK_LIBRARY "$HOME/.bashrc" || cat >> "$HOME/.bashrc" << 'EOF'
+export PHONEMIZER_ESPEAK_LIBRARY=$PREFIX/lib/libespeak-ng.so
+export ESPEAK_DATA_PATH=$PREFIX/share/espeak-ng-data
+EOF
+export PATH="$HOME/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/llama.cpp/build/bin:${LD_LIBRARY_PATH:-}"
+rm -rf "$STAGE"
+echo "unpacked. next: tricorder start"
+ls -lh "$HOME/llama.cpp/build/bin/libllama-common.so.0" "$HOME/kokoro/server.py" "$PREFIX/lib/libprotobuf-lite.so"
