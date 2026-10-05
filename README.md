@@ -1,3 +1,22 @@
+5 oct 2026
+
+tricorder to tricorder PTT and event passing via SUBSPACE [communications/lora]
+
+<img width="678" height="1024" alt="Screenshot 2026-10-05 063240" src="https://github.com/user-attachments/assets/9555863c-18ca-4199-87ee-14e80b9a46ae" />
+<img width="753" height="915" alt="Screenshot 2026-10-05 063203" src="https://github.com/user-attachments/assets/88e40337-69ba-4742-a2d8-92cfd6667cd4" />
+<img width="762" height="855" alt="Screenshot 2026-10-05 063141" src="https://github.com/user-attachments/assets/85befe16-eec2-42ce-b4c6-570d81de07c2" />
+<img width="699" height="905" alt="Screenshot 2026-10-05 063118" src="https://github.com/user-attachments/assets/4f7525d7-1637-4199-abff-6f798d09efad" />
+<img width="1902" height="1017" alt="Screenshot 2026-10-05 061740" src="https://github.com/user-attachments/assets/1a7b9a48-78e0-429a-8f1a-53604ea0268a" />
+<img width="605" height="871" alt="Screenshot 2026-10-05 061450" src="https://github.com/user-attachments/assets/7d38a509-32eb-4187-a7d5-f8eedc801243" />
+
+video demos for meshtastic/subspace
+
+https://youtube.com/shorts/-723fQ4NYRw
+
+https://youtube.com/shorts/K8nP0aAWa8A
+
+
+
 4 oct 26
 
 second tricorder is online, getting ready to build subspace meshtastic link
