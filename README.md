@@ -1,5 +1,7 @@
 5 oct 2026
 
+Tricorder-0.6.108-fold3-debug.apk
+
 tricorder to tricorder PTT and event passing via SUBSPACE [communications/lora]
 
 <img width="678" height="1024" alt="Screenshot 2026-10-05 063240" src="https://github.com/user-attachments/assets/9555863c-18ca-4199-87ee-14e80b9a46ae" />
