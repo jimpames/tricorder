@@ -1,5 +1,11 @@
 7 oct 2026
 
+1 mile range test performed for meshtastic tricorder link
+
+- success! remote tricorder received events and both units could send PTT messages
+
+- SenseCap T1000-E meshtastic/lora device is CERTIFIED for TRICORDER/OS
+
 full video demo of TRICORDER/OS coming soon
 
 - supports meshtastic/lora
