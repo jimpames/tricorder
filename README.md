@@ -1,3 +1,24 @@
+7 oct 2026
+
+https://github.com/jimpames/tricorder/blob/main/Tricorder-0.6.161-fold3-debug.apk
+
+https://github.com/jimpames/tricorder/blob/main/Tricorder-Subspace-Protocol-draft-00.pdf
+
+https://github.com/jimpames/tricorder/blob/main/project-tricorder-0.6.161-source.zip
+
+
+release beta 0.8 Tricorder/OS [rent-a-hal MTOR for Android] - Implemented as Project Tricorder MK I
+
+features [build 161 with source in repo above]:
+
+- Tricorder events can be routed on the Meshtastic / lora
+
+- PTT [push to talk] to any tricorder in range on meshtastic
+
+- full lab developed and tested support for SenseCap T1000-E Meshtastic / lora device - Fully Certified for TRICORDER/OS
+
+- Tricorder OS is certified only on the Galaxy Fold 3
+
 5 oct 2026
 
 subspace protocol (meshtastic/lora)
