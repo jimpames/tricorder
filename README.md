@@ -1,5 +1,10 @@
 7 oct 2026
 
+full video demo of TRICORDER/OS coming soon
+
+- supports meshtastic/lora
+
+  
 https://github.com/jimpames/tricorder/blob/main/Tricorder-0.6.161-fold3-debug.apk
 
 https://github.com/jimpames/tricorder/blob/main/Tricorder-Subspace-Protocol-draft-00.pdf
