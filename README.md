@@ -2,6 +2,29 @@
 
 subspace radio - 'live nav map' and 'push to talk' demo
 
+full range report 1 mile test
+
+https://github.com/jimpames/tricorder/blob/main/TRICORDER-OS-SUBSPACE-1-mile-test-meshtastic-lora.pdf
+
+protocol overview:
+
+https://github.com/jimpames/tricorder/blob/main/TRICORDER-OS-protocol-and-spec-v1.pdf
+
+protocol RFC (not IETF) - detailed
+
+https://github.com/jimpames/tricorder/blob/main/Tricorder-Subspace-Protocol-draft-00.pdf
+
+kirk wire log
+
+https://github.com/jimpames/tricorder/blob/main/kirk-tricorder-wire.log%20(24).txt
+
+spock wire log
+
+https://github.com/jimpames/tricorder/blob/main/spock-tricorder-wire.log%20(28).txt
+
+
+
+
 - no wifi or 5G needed
 
   - multi-kilometer range
