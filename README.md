@@ -1,5 +1,16 @@
 7 oct 2026
 
+subspace radio - 'live nav map' and 'push to talk' demo
+
+- no wifi or 5G needed
+
+  - multi-kilometer range
+ 
+  - meshtastic lora
+    
+https://youtube.com/shorts/o-BdHqh1zK0
+
+
 1 mile range test performed for meshtastic tricorder link
 
 - success! remote tricorder received events and both units could send PTT messages
