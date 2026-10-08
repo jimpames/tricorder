@@ -1,4 +1,7 @@
 7 oct 2026
+<img width="575" height="861" alt="tricorder-PTT-mode" src="https://github.com/user-attachments/assets/44bde7e1-f3ef-42ad-bae1-36686e58f560" />
+<img width="562" height="874" alt="spock-kirk-map" src="https://github.com/user-attachments/assets/cfad8895-21aa-4f6b-a603-c40c1f47b3e7" />
+<img width="589" height="874" alt="kirk-spock-map" src="https://github.com/user-attachments/assets/033e31fe-947b-44fd-ab65-4c659f38a071" />
 
 subspace radio - 'live nav map' and 'push to talk' demo
 
