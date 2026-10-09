@@ -14,6 +14,314 @@ full range report 1 mile test
 
 https://github.com/jimpames/tricorder/blob/main/TRICORDER-OS-SUBSPACE-1-mile-test-meshtastic-lora.pdf
 
+# Project Tricorder — TRICORDER/OS
+
+### A Software-Defined Field Instrument for Android
+
+**A personal, multimodal sensing platform that brings together artificial intelligence, environmental awareness, voice interaction, field logging, navigation-oriented displays, and device-to-device communications.**
+
+Project Tricorder is an independent engineering project from **N2NHU Labs**, created by Jim Ames. It explores a practical question: *What happens when we design a mobile computer as an instrument for observing, interpreting, and responding to the world around us?*
+
+Rather than treating sensing, AI, voice, and communications as separate applications, TRICORDER/OS brings them together through a unified, instrument-oriented interface. The result is an Android-based field system designed for hands-free interaction, real-time sensing, contextual information, persistent event history, and extensible capabilities.
+
+> **Design principle:** An instrument should do more than display information. It should help its operator detect, interpret, remember, and act on what is happening.
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Core Capabilities](#core-capabilities)
+- [SUBSPACE: Tricorder-to-Tricorder Communications](#subspace-tricorder-to-tricorder-communications)
+- [System Design](#system-design)
+- [Installation and Deployment](#installation-and-deployment)
+- [Documentation and Demonstrations](#documentation-and-demonstrations)
+- [Safety and Limitations](#safety-and-limitations)
+- [Project Status](#project-status)
+- [License and Attribution](#license-and-attribution)
+
+---
+
+## Project Overview
+
+TRICORDER/OS is a software-defined field instrument implemented for Android. It combines multiple sensing and information-processing capabilities in a single operator-facing system.
+
+The project brings together:
+
+- **Perception:** Camera-based vision, environmental audio classification, and other sensor inputs.
+- **Interpretation:** AI-assisted classification, contextual lookups, and spoken responses.
+- **Interaction:** Voice commands, hands-free operation, speech output, and instrument-style controls.
+- **Memory:** Field logs, recorded observations, images, and reviewable event history.
+- **Awareness:** Location-dependent information, aircraft observations, weather, astronomy, and navigation-oriented displays.
+- **Communications:** A SUBSPACE application protocol that allows compatible instruments to exchange events and push-to-talk messages over Meshtastic/LoRa.
+
+The system is inspired by the long-standing idea of a handheld scientific instrument capable of observing its surroundings. Its implementation is an independent software and engineering project, not an official product of any entertainment franchise.
+
+## Core Capabilities
+
+### 1. Environmental Sensing and Classification
+
+TRICORDER/OS integrates audio and visual sensing capabilities to help an operator examine the surrounding environment.
+
+Depending on the installed build and configured components, capabilities include:
+
+- Environmental sound classification.
+- Bird-call identification using BirdNET.
+- Flora and fauna identification.
+- Camera-based object and scene analysis.
+- Aircraft observation and associated information.
+- Soundscape interpretation and event alerts.
+- Sensor readings and graphical representations of observations.
+
+Classification results are computational interpretations, not guarantees of identity or certainty. Accuracy depends on the sensor input, model, environmental conditions, and available contextual data.
+
+### 2. Voice Interaction and Hands-Free Operation
+
+Voice interaction is a central part of the instrument's design.
+
+The system supports spoken commands and responses, with capabilities including:
+
+- Voice-driven operation of supported functions.
+- Spoken descriptions and alerts.
+- Dictation and verbal editing.
+- Speech-based inquiry and information retrieval.
+- Translation and text-to-speech features in supported configurations.
+- Configurable voice-output behavior.
+
+The objective is to reduce the need to navigate conventional application menus while working in the field.
+
+### 3. Field Logging and Memory
+
+Observations become more useful when they can be reviewed later.
+
+TRICORDER/OS includes field-history functionality designed to preserve selected observations and associated information. Depending on the feature and build, this can include:
+
+- Event and detection logs.
+- Images associated with observations.
+- Dictated notes.
+- Review and replay of recorded activity.
+- Summaries of findings.
+
+This creates a record of what the instrument observed, helping the operator revisit earlier events rather than relying entirely on immediate notifications.
+
+### 4. Aircraft and Contextual Information
+
+The instrument combines local observations with contextual information where supported.
+
+Aircraft-related functionality includes features such as:
+
+- Aircraft monitoring near a reported location.
+- Aircraft identification and available registration or airframe information.
+- Flight-route information when available.
+- Related photographs and contextual fact cards.
+- Spoken announcements and alerts.
+
+Some contextual information depends on network connectivity and third-party data sources. Availability, accuracy, and coverage vary by source and location.
+
+### 5. Navigation-Oriented Instrumentation
+
+The project includes instrument-style displays and location-aware features, including supported combinations of:
+
+- GPS-based position and speed.
+- Compass and artificial-horizon displays.
+- Altitude and motion-related readings.
+- Map-based observations and journey history.
+- Camp markers and backtracking assistance.
+- Weather, astronomy, satellite, and space-weather information.
+
+These functions are intended for informational and recreational field use. The artificial horizon, compass, and related displays are **not certified aviation, marine, or spacecraft navigation instruments** and must not replace approved navigation or safety equipment.
+
+### 6. Contextual Information and Reference
+
+TRICORDER/OS includes inquiry-oriented features that can retrieve and present reference material.
+
+Supported configurations have included:
+
+- General knowledge and article lookup.
+- Spoken reference queries.
+- Contextual information cards.
+- Medical-reference material for informational purposes.
+- Summaries and related information.
+
+Reference material is not a substitute for qualified professional advice. Network-dependent information may be unavailable, incomplete, or outdated.
+
+---
+
+## SUBSPACE: Tricorder-to-Tricorder Communications
+
+**SUBSPACE** is the project's application-level communications system for exchanging selected events and push-to-talk messages between compatible instruments.
+
+It operates above the Meshtastic communications layer rather than modifying LoRa radio firmware.
+
+The design extends the instrument beyond a single device: one unit can observe an event while another receives information about it.
+
+### Current design goals
+
+- Exchange supported Tricorder events between compatible devices.
+- Support push-to-talk messaging.
+- Identify communicating nodes.
+- Carry compact messages over a low-bandwidth radio link.
+- Support operation without Wi-Fi or cellular connectivity between the communicating radio endpoints.
+- Provide message and transport logging for troubleshooting.
+- Manage queued messages and fragmented event payloads within the constraints of the radio transport.
+
+### Communications architecture
+
+The conceptual path is:
+
+`Sensor / Event → SUBSPACE → Meshtastic → LoRa → Meshtastic → SUBSPACE → Remote Instrument`
+
+The radio transport carries the data. SUBSPACE supplies the application-level meaning and handling.
+
+The project has documented testing with Meshtastic/LoRa hardware, including a reported one-mile field test. Actual range depends on terrain, antennas, radio configuration, interference, and regional radio requirements.
+
+**Important:** SUBSPACE is an evolving project protocol, not an IETF-standard protocol. Delivery, completeness, identity, privacy, and security must be evaluated according to the implemented version and deployment configuration. A transmitted message should not automatically be treated as authenticated, acknowledged, or guaranteed to arrive.
+
+See the [SUBSPACE protocol specification](TRICORDER-OS-protocol-and-spec-v1.pdf) and [protocol draft](Tricorder-Subspace-Protocol-draft-00.pdf) for implementation details.
+
+---
+
+## System Design
+
+TRICORDER/OS is best understood as a software-defined instrument rather than a collection of unrelated mobile utilities.
+
+Its design brings together several functional layers:
+
+| Layer | Responsibility |
+|---|---|
+| **Input and sensing** | Collect camera, microphone, location, motion, and other available sensor data. |
+| **Detection and classification** | Identify candidate events using supported models and processing components. |
+| **Context** | Associate observations with available location, reference, or external information. |
+| **Response** | Present results through instrument displays, alerts, speech, or other supported outputs. |
+| **Memory** | Record selected events and observations for later review. |
+| **Communications** | Exchange supported events and messages with compatible remote instruments. |
+
+### Engineering principles
+
+**Instrument-oriented interaction**
+
+The interface emphasizes readings, indicators, event displays, graphical measurements, and direct operator controls.
+
+**Integrated multimodal operation**
+
+Audio, vision, voice, context, and event history are brought together within a single operational environment.
+
+**Local processing where supported**
+
+The project incorporates on-device AI and local components where implemented. Some functions rely on network services, external data sources, or the separately installed backend. The exact processing and connectivity requirements depend on the feature and build.
+
+**Operator control**
+
+The operator remains responsible for interpreting results and deciding what action to take. Automated classifications and alerts are intended to assist observation, not replace judgment.
+
+**Observable behavior**
+
+Logs, diagnostic functions, and protocol traces help the developer and operator understand system activity and investigate failures.
+
+---
+
+## Installation and Deployment
+
+Project Tricorder is currently an **Android-focused project**.
+
+The repository contains application packages, source archives, operational documentation, and backend installation instructions. Check the documentation for the specific release you intend to use.
+
+### Prerequisites
+
+Depending on the selected build and enabled capabilities, deployment may require:
+
+- A compatible Android device.
+- The matching Tricorder APK.
+- The corresponding backend files and runtime.
+- Termux and required packages for configurations using the Termux-hosted backend.
+- Permissions for the sensors and Android services used by enabled features.
+- Network connectivity for functions that query remote services.
+- Compatible Meshtastic hardware for SUBSPACE/LoRa communications.
+
+### Installation guide
+
+Start with the repository's [Termux Backend Installation Guide](TERMUX-BACKEND-INSTALL.md).
+
+1. Review the installation guide and the requirements for the selected release.
+2. Obtain the matching application package and backend archive.
+3. Install and configure the required runtime and dependencies.
+4. Extract and start the backend as documented.
+5. Grant the Android permissions required for the functions you intend to use.
+6. Verify the local application/backend connection before testing optional network or radio capabilities.
+
+**Version compatibility matters.** Do not assume that an older APK, a newer source archive, and an unrelated backend package form a compatible installation. Use the release notes and documentation associated with the selected build.
+
+For current artifacts, source code, and project documentation, visit the [Project Tricorder repository](https://github.com/jimpames/tricorder).
+
+---
+
+## Documentation and Demonstrations
+
+The repository includes operational, architectural, and protocol documentation. These materials are intended to explain not only how to operate the instrument, but also how its components fit together.
+
+| Resource | Description |
+|---|---|
+| [Complete Guide](Project-Tricorder-Complete-Guide-0.6.32.pdf) | Broad overview of the project's capabilities and operation. |
+| [Mk I Operations Manual](Project-Tricorder-MkI-Operations-Manual-0.6.32.pdf) | Operator-oriented reference for supported functions. |
+| [Theory of Operations](Project-Tricorder-Theory-of-Operations-2026-09-07.pdf) | Architectural explanation of the system. |
+| [Design and Capabilities Review](Project_Tricorder_Design_and_Capabilities_Review.pdf) | Design-oriented capability review. |
+| [Termux Backend Installation](TERMUX-BACKEND-INSTALL.md) | Backend setup and deployment instructions. |
+| [SUBSPACE Protocol Specification](TRICORDER-OS-protocol-and-spec-v1.pdf) | Application-level communications design. |
+| [SUBSPACE Protocol Draft](Tricorder-Subspace-Protocol-draft-00.pdf) | Detailed protocol draft and implementation discussion. |
+
+### Demonstrations
+
+- [Project overview video](https://youtu.be/SjvG9m4q6wI)
+- [Voice-control demonstration](https://youtu.be/v2nPxCbIlZo)
+- [Environmental soundscape identification](https://youtu.be/7OXqAMdJ_pE)
+- [SUBSPACE / LoRa field demonstration](https://youtube.com/shorts/o-BdHqh1zK0)
+
+For additional demonstrations, updated manuals, APKs, and source archives, see the repository's [main page](https://github.com/jimpames/tricorder).
+
+---
+
+## Safety and Limitations
+
+TRICORDER/OS is an experimental, independently developed field instrument. Its capabilities and limitations depend on the device, software build, model, configuration, and availability of external services.
+
+- **AI classifications can be wrong.** Treat detected objects, sounds, and contextual descriptions as potentially uncertain.
+- **Alerts are not guaranteed.** Sensor limitations, background execution restrictions, environmental noise, and connectivity can affect detection.
+- **Network services can fail.** Remote reference data, weather, aircraft information, and other online features depend on their respective sources.
+- **Radio messages are not guaranteed delivery.** LoRa/Meshtastic communications are subject to range, interference, configuration, and protocol limitations.
+- **Medical information is informational only.** The application is not a diagnostic device or substitute for professional medical care.
+- **Navigation displays are not certified.** Do not use the artificial horizon, compass, GPS readings, or other displays as primary safety-critical navigation equipment.
+- **Security depends on configuration and implementation.** Do not assume that a node name, radio identity, or received message proves the sender's identity.
+
+Operators should retain independent judgment and use approved equipment for safety-critical tasks.
+
+---
+
+## Project Status
+
+Project Tricorder is an actively developed independent engineering project from N2NHU Labs. The repository contains application builds, source archives, manuals, and ongoing work on sensing, voice interaction, event handling, and SUBSPACE communications.
+
+Features may vary between versions. Refer to the specific build's documentation and release notes when evaluating a capability.
+
+The project is intended to support continued experimentation, technical review, and the development of a practical multimodal field instrument for Android.
+
+## License and Attribution
+
+Project licensing and attribution information are provided in the repository's [license file](license).
+
+Project Tricorder is developed by **Jim Ames — N2NHU Labs**.
+
+The project is an independent engineering effort inspired by the broader concept of a portable scientific sensing instrument. It is not affiliated with or endorsed by any television studio, entertainment franchise, or radio-hardware manufacturer.
+
+---
+
+**Project Tricorder / TRICORDER/OS — N2NHU Labs**
+
+*Observe. Interpret. Remember. Communicate.*
+
+
+
+
+
 protocol overview:
 
 https://github.com/jimpames/tricorder/blob/main/TRICORDER-OS-protocol-and-spec-v1.pdf
